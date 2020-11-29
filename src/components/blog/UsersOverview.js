@@ -86,7 +86,7 @@ class UsersOverview extends React.Component {
   }
 
   render() {
-    const { title } = this.props;
+    
     return (
       <Card small className="h-100">
         <CardHeader className="border-bottom">
