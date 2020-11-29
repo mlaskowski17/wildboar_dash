@@ -30,12 +30,12 @@ export default class UserActions extends React.Component {
     return (
       <NavItem tag={Dropdown} caret toggle={this.toggleUserActions}>
         <DropdownToggle caret tag={NavLink} className="text-nowrap px-3">
-          <img
+          {/* <img
             className="user-avatar rounded-circle mr-2"
             src={require("./../../../../images/avatars/0.jpg")}
             alt="User Avatar"
-          />{" "}
-          <span className="d-none d-md-inline-block">Katarzyna Mocek</span>
+          />{" "} */}
+          <span className="mt-2 d-none d-md-inline-block">Katarzyna Mocek</span>
         </DropdownToggle>
         <Collapse tag={DropdownMenu} right small open={this.state.visible}>
           <DropdownItem to="user-profile">
